@@ -19,28 +19,22 @@ I will set the power levels a little higher of the 5ghz band so that clients wil
 
 
 I will enabled the greatest number of features that the hardware and openwrt firmware supports. Below are example of some of the features that I will try to enable.
--minRSSI(This is used to help older clients move between access points)
--802.11r(Fast Basic Service Set Transition (FT) to authenticate more quickly)
-
-*802.11k(This allows the AP to give a list of nearby APs so when the client moves it can quickly connection to a new AP)
-
-*802.11v(This allows the AP to influence client roaming behavior by providing it the load information of nearby APs.
-
-*Band steering(This allows for AP to help clients more to 5ghz on a mixed band ssid)
-
-*airtime fairness( prioritize clients based on their link rate so that instead of everyone getting an equal slice of bandwidth, they get an equal slice of airtime.)
-
-*possible 802.11u(This will allow transmission of pre-connection information to prospective users and allow the client devices to auto connection)
-
-*Possible 802.11w(Protected Management Frames to stop deauth attacks)
+- minRSSI(This is used to help older clients move between access points)
+- 802.11r(Fast Basic Service Set Transition (FT) to authenticate more quickly)
+- 802.11k(This allows the AP to give a list of nearby APs so when the client moves it can quickly connection to a new AP)
+- 802.11v(This allows the AP to influence client roaming behavior by providing it the load information of nearby APs.
+- Band steering(This allows for AP to help clients more to 5ghz on a mixed band ssid)
+- Airtime fairness( prioritize clients based on their link rate so that instead of everyone getting an equal slice of bandwidth, they get an equal slice of airtime.)
+- Possible 802.11u(This will allow transmission of pre-connection information to prospective users and allow the client devices to auto connection)
+- Possible 802.11w(Protected Management Frames to stop deauth attacks)
 
 
 ##Wireless networks
 Under this proposal there would be 3 SSIDs 
-	SSID NAME=description 
-SCALE-public 2g slow=This would be a 2.4ghz only network and be an WPA2 PSK network.
-SCALE public 5g fast=This would be a 5ghz only network and be an WPA2 PSK network.
-somename=This would be the staff network and would be a mixed band network with WPA2 PSK encryption.
+- **SSID NAME=description**
+- SCALE-public 2g slow=This would be a 2.4ghz only network and be an WPA2 PSK network.
+- SCALE public 5g fast=This would be a 5ghz only network and be an WPA2 PSK network.
+- somename=This would be the staff network and would be a mixed band network with WPA2 PSK encryption.
 
 
 ##Management
