@@ -1,0 +1,1 @@
+This is for the config files and docs for the SCALE network
