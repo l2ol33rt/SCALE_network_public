@@ -1,94 +1,34 @@
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
-Networks
-Network name
-Ip range
-vlan
-Notes
-DHCP range
-Network management
-10.1.0.0/24 
-vlan=1
-This is for servers, switches, and APs
-10.1.0.20 - 10.1.0.250
-SCALE-public 2g 
-10.40.0.0/21
-vlan=40
-Guest network
-building1
-10.40.0.20 - 10.40.8.250
-SCALE public 5g
-10.41.0.0/21
-vlan=41
-Guest network
-building1
-10.41.0.20 - 10.41.8.250
-SCALE-public 2g
-10.42.0.0/21
-vlan=42
-Guest network
-building2
-10.42.0.20 - 10.42.8.250
-SCALE public 5g
-10.43.0.0/21
-vlan=43
-Guest network
-building2
-10.43.0.20 - 10.43.8.250
-SCALE Staff
-10.60.0.0/23
-vlan=60
-Connected to the staff wireless network
-10.60.0.20 - 10.60.1.250
-Reg desk
-10.61.0.0/24
-Vlan=61
+#Networks
+| Network name | Ip range v4 | Ip range v6 | vlan | Notes | DHCP range |
+| --- | --- | --- | --- | --- | --- |
+| Network management | 10.1.0.0/24 | 2001:470:f3fc:1::/64 | vlan=1 | This is for servers, switches, and APs | 10.1.0.20 - 10.1.0.250 |
+| SCALE-public 2g  | 10.40.0.0/21 | 2001:470:f3fc:40::/64 | vlan=40 | Guest network building1 | 10.40.0.20 - 10.40.8.250 |
+| SCALE public 5g | 10.41.0.0/21 | 2001:470:f3fc:41::/64 | vlan=41 | Guest network building1 | 10.41.0.20 - 10.41.8.250 |
+| SCALE-public 2g  | 10.42.0.0/21 | 2001:470:f3fc:42::/64 | vlan=42 | Guest network building2 | 10.42.0.20 - 10.42.8.250 |
+| SCALE public 5g | 10.43.0.0/21 | 2001:470:f3fc:43::/64 | vlan=43 | Guest network building2 | 10.43.0.20 - 10.43.8.250 |
+| SCALE Staff  | 10.60.0.0/23 | 2001:470:f3fc:60::/64 | vlan=60 | Connected to the staff wireless network | 10.60.0.20 - 10.60.1.250 |
+| Reg desk  | 10.61.0.0/24 | 2001:470:f3fc:61::/64 | vlan=61 | | 10.61.0.20 - 10.61.0.250 |
+| Video  | 10.70.0.0/24 | No ip v6 | vlan=70 | AV team | 10.70.0.20 - 10.70.0.250 |
+| Display boards  | 10.55.0.0/24 | 2001:470:f3fc:55::/64 | vlan=55 | For the PI connected to the display boards | 10.55.0.20 - 10.55.0.250 |
+| Speakers  | 10.65.0.0/24 | 2001:470:f3fc:65::/64 | vlan=65 |  | 10.65.0.20 - 10.65.0.250 |
+| Vendors booth  | 10.xx.0.0/24 | 2001:470:f3fc:100-199::/64 | vlan=100-199 | The x in the IP will match the vlan ID | 10.x.0.20 - 10.x.0.250 |
+| HAM  | 10.80.0.0/24 | 2001:470:f3fc:80::/64 | vlan=80 |  | 110.80.0.20 - 10.80.0.250 |
 
-
-10.61.0.20 - 10.61.0.250
-Video
-10.70.0.0/24
-vlan=70
-AV team
-10.70.0.20 - 10.70.0.250
-Display boards
-10.55.0.0/24
-vlan 55
-For the PI connected to the display boards
-10.55.0.20 - 10.55.0.250
-Speakers
-10.65.0.0/24
-vlan 65
-
-
-10.65.0.20 - 10.65.0.250
-Vendors booth
-10.x.0.0/24
-vlan 100-199
-The x in the IP will match the vlan ID
-10.x.0.20 - 10.x.0.250
-HAM
-10.80.0.0/24
-vlan=80
-
-
-10.80.0.20 - 10.80.0.250
 All vlans= untag 50, tag 40,41,42,43,55,60,61,65,70,80,100-199
 Vlans only for APs=untag 50, tag 60,40,41,42,43
 
 
-Switches
-Ballroom A 2810-24G
-Port1 Ballroom A1 AP Vlans only for APs
-Port2 Ballroom A2 AP Vlans only for APs
-Port3 Ballroom A3 AP Vlans only for APs
-Port13 Ballroom A AV untag vlan 70
-Port14 Ballroom A AV untag vlan 70
-Port 21 Ballroom A speakers  untag vlan 65
-Port 24 uplink to Ballroom MDF sw All vlans
-Ballroom B 2810-24G
+#Switches
+##Ballroom A 2810-24G##
+- Port1 Ballroom A1 AP Vlans only for APs
+- Port2 Ballroom A2 AP Vlans only for APs
+- Port3 Ballroom A3 AP Vlans only for APs
+- Port13 Ballroom A AV untag vlan 70
+- Port14 Ballroom A AV untag vlan 70
+- Port 21 Ballroom A speakers  untag vlan 65
+- Port 24 uplink to Ballroom MDF sw All vlans
+
+##Ballroom B 2810-24G##
 Port1 Ballroom B1 AP Vlans only for APs
 Port2 Ballroom B2 AP Vlans only for APs
 Port3 Ballroom B3 AP Vlans only for APs
