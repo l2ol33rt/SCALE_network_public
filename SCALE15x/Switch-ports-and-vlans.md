@@ -17,6 +17,11 @@
 All vlans= untag 50, tag 40,41,42,43,55,60,61,65,70,80,100-199
 Vlans only for APs=untag 50, tag 60,40,41,42,43
 
+#Ips
+-openwisp=10.1.0.2
+-snmp/nms=10.1.0.3
+-syslog/graylog=10.1.0.4
+-ntp/sntp=10.1.0.5
 
 #Switches
 ##Ballroom A 2810-24G##
