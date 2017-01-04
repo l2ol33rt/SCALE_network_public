@@ -1,0 +1,480 @@
+Switch,Port number,Port description ,Vlans tag,vlans untag
+BallroomA,1,Ballroom A1 AP,"60,40,41,42,43",50
+BallroomA,2,Ballroom A2 AP,"60,40,41,42,43",50
+BallroomA,3,Ballroom A3 AP,"60,40,41,42,43",50
+BallroomA,13,Ballroom A AV,,70
+BallroomA,14,Ballroom A AV,,70
+BallroomA,15,Ballroom A AV,,70
+BallroomA,21,Ballroom A speakers,,65
+BallroomA,24,uplink to Ballroom MDF,alltag,50
+BallroomB,1,Ballroom B1 AP,"60,40,41,42,43",50
+BallroomB,2,Ballroom B2 AP,"60,40,41,42,43",50
+BallroomB,3,Ballroom B3 AP,"60,40,41,42,43",50
+BallroomB,4,Ballroom B hallway AP,"60,40,41,42,43",50
+BallroomB,15,Ballroom B AV,,70
+BallroomB,16,Ballroom B AV,,70
+BallroomB,17,Ballroom B AV,,70
+BallroomB,20,Ballroom B speakers,,65
+BallroomB,24,uplink to Ballroom MDF sw,alltag,50
+BallroomC,1,Ballroom C1 AP,"60,40,41,42,43",50
+BallroomC,2,Ballroom C2 AP,"60,40,41,42,43",50
+BallroomC,3,Ballroom C3 AP,"60,40,41,42,43",50
+BallroomC,4,Ballroom C Lobby AP,"60,40,41,42,43",50
+BallroomC,11,Ballroom C AV,,70
+BallroomC,12,Ballroom C AV,,70
+BallroomC,13,Ballroom C AV,,70
+BallroomC,20,Ballroom C speakers,,65
+BallroomC,23,Display outside of C,,55
+BallroomC,24,Display outside of C,,55
+BallroomC,25,uplink to Ballroom MDF sw,alltag,50
+BallroomDE,1,Ballroom DE1 AP,"60,40,41,42,43",50
+BallroomDE,2,Ballroom DE2 AP,"60,40,41,42,43",50
+BallroomDE,3,Ballroom DE3 AP,"60,40,41,42,43",50
+BallroomDE,4,Ballroom DE4 AP,"60,40,41,42,43",50
+BallroomDE,5,Ballroom DE5 AP,"60,40,41,42,43",50
+BallroomDE,6,Ballroom DE6 AP,"60,40,41,42,43",50
+BallroomDE,7,Ballroom DE7 AP,"60,40,41,42,43",50
+BallroomDE,8,Ballroom D hallway AP,"60,40,41,42,43",50
+BallroomDE,13,Ballroom DE AV,,70
+BallroomDE,14,Ballroom DE AV,,70
+BallroomDE,15,Ballroom DE AV,,70
+BallroomDE,20,Ballroom DE speakers,,65
+BallroomDE,24,uplink to Ballroom MDF,alltag,50
+BallroomF,1,Ballroom F1 AP,"60,40,41,42,43",50
+BallroomF,2,Ballroom F2 AP,"60,40,41,42,43",50
+BallroomF,3,Ballroom F3 AP,"60,40,41,42,43",50
+BallroomF,4,Ballroom F hallway AP,"60,40,41,42,43",50
+BallroomF,13,Ballroom F AV,,70
+BallroomF,14,Ballroom F AV,,70
+BallroomF,15,Ballroom F AV,,70
+BallroomF,20,Ballroom F speakers,,65
+BallroomF,22,Display outside of F,,55
+BallroomF,23,Display outside of F,,55
+BallroomF,24,uplink to Ballroom MDF sw,alltag,50
+BallroomG,1,Ballroom G1 AP,"60,40,41,42,43",50
+BallroomG,2,Ballroom G2 AP,"60,40,41,42,43",50
+BallroomG,3,Ballroom G3 AP,"60,40,41,42,43",50
+BallroomG,4,Ballroom G hallway AP,"60,40,41,42,43",50
+BallroomG,11,Ballroom G AV,,70
+BallroomG,12,Ballroom G AV,,70
+BallroomG,13,Ballroom G AV,,70
+BallroomG,20,Ballroom G speakers,,65
+BallroomG,23,Display outside of G,,55
+BallroomG,25,uplink to Ballroom MDF,alltag,50
+BallroomH,1,Ballroom H1 AP,"60,40,41,42,43",50
+BallroomH,2,Ballroom H1 AP,"60,40,41,42,43",50
+BallroomH,3,Ballroom H1 AP,"60,40,41,42,43",50
+BallroomH,13,Ballroom H AV,,70
+BallroomH,14,Ballroom H AV,,70
+BallroomH,15,Ballroom H AV,,70
+BallroomH,21,Ballroom H speakers,,65
+BallroomH,24,uplink to Ballroom MDF sw,alltag,50
+BallroomJ,1,Ballroom J1 AP,"60,40,41,42,43",50
+BallroomJ,2,Ballroom J2 AP,"60,40,41,42,43",50
+BallroomJ,25,uplink to Ballroom MDF sw,alltag,50
+BallroomI,1,Ballroom I1 AP,"60,40,41,42,43",50
+BallroomI,2,Ballroom I2 AP,"60,40,41,42,43",50
+BallroomI,25,uplink to Ballroom MDF sw,alltag,50
+BallroomMDF,1,downlink to ExhibithallA sw1,alltag,50
+BallroomMDF,2,downlink to ExhibithallA sw2,alltag,50
+BallroomMDF,3,downlink to ExhibithallB sw1,alltag,50
+BallroomMDF,4,downlink to ExhibithallB sw2,alltag,50
+BallroomMDF,8,downlink to Ballroom A sw,alltag,50
+BallroomMDF,9,downlink to Ballroom B sw,alltag,50
+BallroomMDF,10,downlink to Ballroom C sw,alltag,50
+BallroomMDF,11,downlink to Ballroom DE sw,alltag,50
+BallroomMDF,12,downlink to Ballroom F sw,alltag,50
+BallroomMDF,13,downlink to Ballroom G sw,alltag,50
+BallroomMDF,14,downlink to Ballroom H sw,alltag,50
+BallroomMDF,15,downlink to Ballroom I sw,alltag,50
+BallroomMDF,16,downlink to reg desk,alltag,50
+BallroomMDF,,uplink to Conference MDF(lag),alltag,50
+BallroomMDF,,uplink to Conference MDF(lag),alltag,50
+Conference MDF,1,downlink Room 101/102 sw ,alltag,50
+Conference MDF,2,downlink Room 103 sw ,alltag,50
+Conference MDF,3,downlink Room 104/105 sw ,alltag,50
+Conference MDF,4,downlink Room 107 sw ,alltag,50
+Conference MDF,5,downlink Room 106 sw ,alltag,50
+Conference MDF,6,downlink Room 211 sw ,alltag,50
+Conference MDF,7,downlink Room 210 sw ,alltag,50
+Conference MDF,8,downlink Room 208 sw ,alltag,50
+Conference MDF,9,downlink Room 205 sw (lag),alltag,50
+Conference MDF,10,downlink Room 205 sw (lag),alltag,50
+Conference MDF,11,downlink Room 215 sw (lag),alltag,50
+Conference MDF,12,downlink Room 215 sw (lag),alltag,50
+Conference MDF,13,downlink Room 212 sw ,alltag,50
+Conference MDF,,uplink to Ballroom MDF,alltag,50
+Conference MDF,,uplink to Ballroom MDF,alltag,50
+Room101-102,1,room 101 AP,"60,40,41,42,43",50
+Room101-102,2,room 101 AP,"60,40,41,42,43",50
+Room101-102,3,room 102 AP,"60,40,41,42,43",50
+Room101-102,4,room 102 AP,"60,40,41,42,43",50
+Room101-102,5,room 101 hallway AP,"60,40,41,42,43",50
+Room101-102,10,room 102/101 AV,,70
+Room101-102,11,room 102/101 AV,,70
+Room101-102,12,room 102/101 AV,,70
+Room101-102,20,room 102/101 speaker,,65
+Room101-102,25,uplink to Conference MDF,alltag,50
+Room103,1,room 103 AP,"60,40,41,42,43",50
+Room103,2,room 103 AP,"60,40,41,42,43",50
+Room103,12,room 103 AV,,70
+Room103,13,room 103 AV,,70
+Room103,14,room 103 AV,,70
+Room103,20,room 103 speaker,,65
+Room103,25,uplink to Conference MDF,alltag,50
+Room104-105,1,room 105 hallway AP,"60,40,41,42,43",50
+Room104-105,2,room 105 AP Vlans,"60,40,41,42,43",50
+Room104-105,3,room 105 AP Vlans,"60,40,41,42,43",50
+Room104-105,4,room 104 AP Vlans,"60,40,41,42,43",50
+Room104-105,5,room 104 AP Vlans,"60,40,41,42,43",50
+Room104-105,11,room 104/105 AV,,70
+Room104-105,12,room 104/105 AV,,70
+Room104-105,13,room 104/105 AV,,70
+Room104-105,20,room 104/105 speaker,,65
+Room104-105,25,uplink to Conference MDF sw,alltag,50
+Room107,1,room 107 AP,"60,40,41,42,43",50
+Room107,2,room 107 AP,"60,40,41,42,43",50
+Room107,3,room 107 AP,"60,40,41,42,43",50
+Room107,4,room 107 hallway AP,"60,40,41,42,43",50
+Room107,10,room 107 AV,,70
+Room107,11,room 107 AV,,70
+Room107,12,room 107 AV,,70
+Room107,20,room 107 speaker,,65
+Room107,25,uplink to Conference MDF sw,alltag,50
+Room106,1,room 106 AP,"60,40,41,42,43",50
+Room106,2,room 106 AP,"60,40,41,42,43",50
+Room106,3,room 106 AP,"60,40,41,42,43",50
+Room106,4,room 106 AP hallway,"60,40,41,42,43",50
+Room106,10,room 106 AV,,70
+Room106,11,room 106 AV,,70
+Room106,12,room 106 AV,,70
+Room106,20,room 106 speaker,,65
+Room106,25,uplink to Conference MDF,alltag,50
+Room211,1,room 211 AP,"60,40,41,42,43",50
+Room211,2,room 211 AP,"60,40,41,42,43",50
+Room211,3,room 211 AP,"60,40,41,42,43",50
+Room211,4,room 211 hallway AP,"60,40,41,42,43",50
+Room211,10,room 211 AV,,70
+Room211,11,room 211 AV,,70
+Room211,12,room 211 AV,,70
+Room211,20,room 211 speaker,,65
+Room211,25,uplink to Conference MDF sw,alltag,50
+Room210-209,1,room 210 AP,"60,40,41,42,43",50
+Room210-209,2,room 209 AP,"60,40,41,42,43",50
+Room210-209,3,room 210 hallway AP,"60,40,41,42,43",50
+Room210-209,10,room 210/209 AV,,70
+Room210-209,11,room 210/209 AV,,70
+Room210-209,12,room 210/209 AV,,70
+Room210-209,20,room 210/209 speaker,,65
+Room210-209,25,uplink to Conference MDF sw,alltag,50
+Room208,1,room 208 AP,"60,40,41,42,43",50
+Room208,2,room 208 AP,"60,40,41,42,43",50
+Room208,5,press/speakers access,,65
+Room208,6,press/speakers access,,65
+Room208,7,press/speakers access,,65
+Room208,8,press/speakers access,,65
+Room208,9,press/speakers access,,65
+Room208,10,press/speakers access,,65
+Room208,11,press/speakers access,,65
+Room208,12,press/speakers access,,65
+Room208,13,press/speakers access,,65
+Room208,14,press/speakers access,,65
+Room208,15,press/speakers access,,65
+Room208,16,press/speakers access,,65
+Room208,17,press/speakers access,,65
+Room208,20,Display outside of 208,,55
+Room208,25,uplink to Conference MDF sw,alltag,50
+Room205,1,room 205 AP,"60,40,41,42,43",50
+Room205,2,room 204 hallway AP,"60,40,41,42,43",50
+Room205,3,room 204 AP,"60,40,41,42,43",50
+Room205,6,AV team,,70
+Room205,7,AV team,,70
+Room205,8,AV team,,70
+Room205,9,AV team,,70
+Room205,10,AV team,,70
+Room205,11,AV team,,70
+Room205,12,AV team,,70
+Room205,13,AV team,,70
+Room205,14,AV team,,70
+Room205,15,AV team,,70
+Room205,16,AV team,,70
+Room205,17,AV team,,70
+Room205,18,AV team,,70
+Room205,19,AV team,,70
+Room205,20,AV team,,70
+Room205,21,AV team,,70
+Room205,22,AV team,,70
+Room205,23,AV team,,70
+Room205,24,AV team,,70
+Room205,25,AV team,,70
+Room205,26,AV team,,70
+Room205,27,AV team,,70
+Room205,28,AV team,,70
+Room205,29,AV team,,70
+Room205,30,AV team,,70
+Room205,45,Display outside of 205,,55
+Room205,47,uplink to Conference MDF sw(lag),alltag,50
+Room205,48,uplink to Conference MDF sw(lag),alltag,50
+Room215,1,room 215 AP,"60,40,41,42,43",50
+Room215,5,NOC,,50
+Room215,6,NOC,,50
+Room215,7,NOC,,50
+Room215,8,NOC,,50
+Room215,9,NOC,,50
+Room215,10,NOC,,50
+Room215,11,NOC,,50
+Room215,12,NOC,,50
+Room215,13,NOC,,50
+Room215,14,NOC,,50
+Room215,15,NOC,,50
+Room215,16,NOC,,50
+Room215,17,NOC,,50
+Room215,18,NOC,,50
+Room215,19,NOC,,50
+Room215,20,NOC,,50
+Room215,21,NOC,,50
+Room215,22,NOC,,50
+Room215,23,NOC,,50
+Room215,24,NOC,,50
+Room215,25,NOC,,50
+Room215,26,NOC,,50
+Room215,27,NOC,,50
+Room215,28,NOC,,50
+Room215,29,NOC,,50
+Room215,30,NOC,,50
+Room215,31,Openwisp,,50
+Room215,32,Zach laptop,,50
+Room215,45,HAM table,,80
+Room215,46,Display outside of 215,,55
+Room215,47,uplink Conference MDFsw(lag),alltag,50
+Room215,48,uplink Conference MDFsw(lag),alltag,50
+Room214,1,room 214 AP,"60,40,41,42,43",50
+Room214,2,room 214 AP,"60,40,41,42,43",50
+Room214,3,room 214 AP,"60,40,41,42,43",50
+Room214,4,room 212 hallway AP,"60,40,41,42,43",50
+Room214,10,room 214 AV,,70
+Room214,11,room 214 AV,,70
+Room214,12,room 214 AV,,70
+Room214,20,room 214 speaker,,65
+Room214,25,uplink to Conference MDF sw,alltag,50
+Regdesk,1,Reg desk AP,"60,40,41,42,43",50
+Regdesk,3,Regdesk display board,,55
+Regdesk,5,reg desk computers,,61
+Regdesk,6,reg desk computers,,61
+Regdesk,7,reg desk computers,,61
+Regdesk,8,reg desk computers,,61
+Regdesk,9,reg desk computers,,61
+Regdesk,10,reg desk computers,,61
+Regdesk,11,reg desk computers,,61
+Regdesk,12,reg desk computers,,61
+Regdesk,13,reg desk computers,,61
+Regdesk,14,reg desk computers,,61
+Regdesk,15,reg desk computers,,61
+Regdesk,16,reg desk computers,,61
+Regdesk,17,reg desk computers,,61
+Regdesk,18,reg desk computers,,61
+Regdesk,19,reg desk computers,,61
+Regdesk,20,reg desk computers,,61
+Regdesk,21,reg desk computers,,61
+Regdesk,22,reg desk computers,,61
+Regdesk,23,reg desk computers,,61
+Regdesk,25,uplink to Ballroom MDF sw,alltag,50
+Regdesk,26,downlink Reg desk2,alltag,50
+Expox,,Exhibithall B hallway AP,"60,40,41,42,43",50
+Expox,,Exhibithall AP1,"60,40,41,42,43",50
+Expox,,Exhibithall AP2,"60,40,41,42,43",50
+Expox,,Exhibithall AP3,"60,40,41,42,43",50
+Expox,,Exhibithall AP4,"60,40,41,42,43",50
+Expox,,Exhibithall AP5,"60,40,41,42,43",50
+Expox,,Exhibithall AP6,"60,40,41,42,43",50
+Expox,,Exhibithall AP7,"60,40,41,42,43",50
+Expox,,Exhibithall AP8,"60,40,41,42,43",50
+Expox,,Exhibithall AP9,"60,40,41,42,43",50
+Expox,,Exhibithall AP10,"60,40,41,42,43",50
+Expox,,Exhibithall AP11,"60,40,41,42,43",50
+Expox,,Exhibithall AP12,"60,40,41,42,43",50
+Expox,,Exhibithall AP13,"60,40,41,42,43",50
+Expox,,Exhibithall AP14,"60,40,41,42,43",50
+Expox,,Exhibithall AP15,"60,40,41,42,43",50
+Expox,,Exhibithall AP16,"60,40,41,42,43",50
+Expox,,display,,55
+Expox,,display,,55
+Expo1,8,vendor xxxx,,xxx
+Expo1,9,vendor xxxx,,xxx
+Expo1,10,vendor xxxx,,xxx
+Expo1,11,vendor xxxx,,xxx
+Expo1,12,vendor xxxx,,xxx
+Expo1,13,vendor xxxx,,xxx
+Expo1,14,vendor xxxx,,xxx
+Expo1,15,vendor xxxx,,xxx
+Expo1,16,vendor xxxx,,xxx
+Expo1,17,vendor xxxx,,xxx
+Expo1,24,Uplink to xxx,alltag,50
+Expo2,4,vendor xxxx,,xxx
+Expo2,5,vendor xxxx,,xxx
+Expo2,6,vendor xxxx,,xxx
+Expo2,7,vendor xxxx,,xxx
+Expo2,8,vendor xxxx,,xxx
+Expo2,9,vendor xxxx,,xxx
+Expo2,10,vendor xxxx,,xxx
+Expo2,11,vendor xxxx,,xxx
+Expo2,12,vendor xxxx,,xxx
+Expo2,13,vendor xxxx,,xxx
+Expo2,14,vendor xxxx,,xxx
+Expo2,15,vendor xxxx,,xxx
+Expo2,16,vendor xxxx,,xxx
+Expo2,24,Uplink to xxx,alltag,50
+Expo3,4,vendor xxxx,,xxx
+Expo3,5,vendor xxxx,,xxx
+Expo3,6,vendor xxxx,,xxx
+Expo3,7,vendor xxxx,,xxx
+Expo3,8,vendor xxxx,,xxx
+Expo3,9,vendor xxxx,,xxx
+Expo3,10,vendor xxxx,,xxx
+Expo3,11,vendor xxxx,,xxx
+Expo3,12,vendor xxxx,,xxx
+Expo3,13,vendor xxxx,,xxx
+Expo3,14,vendor xxxx,,xxx
+Expo3,15,vendor xxxx,,xxx
+Expo3,16,vendor xxxx,,xxx
+Expo3,24,Uplink to xxx,alltag,50
+Expo4,4,vendor xxxx,,xxx
+Expo4,5,vendor xxxx,,xxx
+Expo4,6,vendor xxxx,,xxx
+Expo4,7,vendor xxxx,,xxx
+Expo4,8,vendor xxxx,,xxx
+Expo4,9,vendor xxxx,,xxx
+Expo4,10,vendor xxxx,,xxx
+Expo4,11,vendor xxxx,,xxx
+Expo4,12,vendor xxxx,,xxx
+Expo4,13,vendor xxxx,,xxx
+Expo4,14,vendor xxxx,,xxx
+Expo4,15,vendor xxxx,,xxx
+Expo4,16,vendor xxxx,,xxx
+Expo4,24,Uplink to xxx,alltag,50
+Expo5,4,vendor xxxx,,xxx
+Expo5,5,vendor xxxx,,xxx
+Expo5,6,vendor xxxx,,xxx
+Expo5,7,vendor xxxx,,xxx
+Expo5,8,vendor xxxx,,xxx
+Expo5,9,vendor xxxx,,xxx
+Expo5,10,vendor xxxx,,xxx
+Expo5,11,vendor xxxx,,xxx
+Expo5,12,vendor xxxx,,xxx
+Expo5,13,vendor xxxx,,xxx
+Expo5,14,vendor xxxx,,xxx
+Expo5,15,vendor xxxx,,xxx
+Expo5,16,vendor xxxx,,xxx
+Expo5,24,Uplink to xxx,alltag,50
+Expo6,4,vendor xxxx,,xxx
+Expo6,5,vendor xxxx,,xxx
+Expo6,6,vendor xxxx,,xxx
+Expo6,7,vendor xxxx,,xxx
+Expo6,8,vendor xxxx,,xxx
+Expo6,9,vendor xxxx,,xxx
+Expo6,10,vendor xxxx,,xxx
+Expo6,11,vendor xxxx,,xxx
+Expo6,12,vendor xxxx,,xxx
+Expo6,13,vendor xxxx,,xxx
+Expo6,14,vendor xxxx,,xxx
+Expo6,15,vendor xxxx,,xxx
+Expo6,16,vendor xxxx,,xxx
+Expo6,24,Uplink to xxx,alltag,50
+Expo7,4,vendor xxxx,,xxx
+Expo7,5,vendor xxxx,,xxx
+Expo7,6,vendor xxxx,,xxx
+Expo7,7,vendor xxxx,,xxx
+Expo7,8,vendor xxxx,,xxx
+Expo7,9,vendor xxxx,,xxx
+Expo7,10,vendor xxxx,,xxx
+Expo7,11,vendor xxxx,,xxx
+Expo7,12,vendor xxxx,,xxx
+Expo7,13,vendor xxxx,,xxx
+Expo7,14,vendor xxxx,,xxx
+Expo7,15,vendor xxxx,,xxx
+Expo7,16,vendor xxxx,,xxx
+Expo7,24,Uplink to xxx,alltag,50
+Expo8,4,vendor xxxx,,xxx
+Expo8,5,vendor xxxx,,xxx
+Expo8,6,vendor xxxx,,xxx
+Expo8,7,vendor xxxx,,xxx
+Expo8,8,vendor xxxx,,xxx
+Expo8,9,vendor xxxx,,xxx
+Expo8,10,vendor xxxx,,xxx
+Expo8,11,vendor xxxx,,xxx
+Expo8,12,vendor xxxx,,xxx
+Expo8,13,vendor xxxx,,xxx
+Expo8,14,vendor xxxx,,xxx
+Expo8,15,vendor xxxx,,xxx
+Expo8,16,vendor xxxx,,xxx
+Expo8,24,Uplink to xxx,alltag,50
+Expo9,4,vendor xxxx,,xxx
+Expo9,5,vendor xxxx,,xxx
+Expo9,6,vendor xxxx,,xxx
+Expo9,7,vendor xxxx,,xxx
+Expo9,8,vendor xxxx,,xxx
+Expo9,9,vendor xxxx,,xxx
+Expo9,10,vendor xxxx,,xxx
+Expo9,11,vendor xxxx,,xxx
+Expo9,12,vendor xxxx,,xxx
+Expo9,13,vendor xxxx,,xxx
+Expo9,14,vendor xxxx,,xxx
+Expo9,15,vendor xxxx,,xxx
+Expo9,16,vendor xxxx,,xxx
+Expo9,24,Uplink to xxx,alltag,50
+Expo10,4,vendor xxxx,,xxx
+Expo10,5,vendor xxxx,,xxx
+Expo10,6,vendor xxxx,,xxx
+Expo10,7,vendor xxxx,,xxx
+Expo10,8,vendor xxxx,,xxx
+Expo10,9,vendor xxxx,,xxx
+Expo10,10,vendor xxxx,,xxx
+Expo10,11,vendor xxxx,,xxx
+Expo10,12,vendor xxxx,,xxx
+Expo10,13,vendor xxxx,,xxx
+Expo10,14,vendor xxxx,,xxx
+Expo10,15,vendor xxxx,,xxx
+Expo10,16,vendor xxxx,,xxx
+Expo10,24,Uplink to xxx,alltag,50
+Expo11,4,vendor xxxx,,xxx
+Expo11,5,vendor xxxx,,xxx
+Expo11,6,vendor xxxx,,xxx
+Expo11,7,vendor xxxx,,xxx
+Expo11,8,vendor xxxx,,xxx
+Expo11,9,vendor xxxx,,xxx
+Expo11,10,vendor xxxx,,xxx
+Expo11,11,vendor xxxx,,xxx
+Expo11,12,vendor xxxx,,xxx
+Expo11,13,vendor xxxx,,xxx
+Expo11,14,vendor xxxx,,xxx
+Expo11,15,vendor xxxx,,xxx
+Expo11,16,vendor xxxx,,xxx
+Expo11,24,Uplink to xxx,alltag,50
+Expo12,4,vendor xxxx,,xxx
+Expo12,5,vendor xxxx,,xxx
+Expo12,6,vendor xxxx,,xxx
+Expo12,7,vendor xxxx,,xxx
+Expo12,8,vendor xxxx,,xxx
+Expo12,9,vendor xxxx,,xxx
+Expo12,10,vendor xxxx,,xxx
+Expo12,11,vendor xxxx,,xxx
+Expo12,12,vendor xxxx,,xxx
+Expo12,13,vendor xxxx,,xxx
+Expo12,14,vendor xxxx,,xxx
+Expo12,15,vendor xxxx,,xxx
+Expo12,16,vendor xxxx,,xxx
+Expo12,24,Uplink to xxx,alltag,50
+Expo13,4,vendor xxxx,,xxx
+Expo13,5,vendor xxxx,,xxx
+Expo13,6,vendor xxxx,,xxx
+Expo13,7,vendor xxxx,,xxx
+Expo13,8,vendor xxxx,,xxx
+Expo13,9,vendor xxxx,,xxx
+Expo13,10,vendor xxxx,,xxx
+Expo13,11,vendor xxxx,,xxx
+Expo13,12,vendor xxxx,,xxx
+Expo13,13,vendor xxxx,,xxx
+Expo13,14,vendor xxxx,,xxx
+Expo13,15,vendor xxxx,,xxx
+Expo13,16,vendor xxxx,,xxx
+Expo13,24,Uplink to xxx,alltag,50
