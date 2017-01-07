@@ -5,6 +5,7 @@ BallroomA,3,Ballroom_A3_AP,"40,41,42,43,60",50
 BallroomA,13,Ballroom_A_AV,,70
 BallroomA,14,Ballroom_A_AV,,70
 BallroomA,15,Ballroom_A_AV,,70
+BallroomA,16,Ballroom_A_AV,,70
 BallroomA,21,Ballroom_A_speakers,,65
 BallroomA,24,uplink_to_Ballroom_MDF,"40,41,42,43,55,60,61,65,70,80,100-111",50
 BallroomB,1,Ballroom_B1_AP,"40,41,42,43,60",50
@@ -14,6 +15,7 @@ BallroomB,4,Ballroom_B_hallway_AP,"40,41,42,43,60",50
 BallroomB,15,Ballroom_B_AV,,70
 BallroomB,16,Ballroom_B_AV,,70
 BallroomB,17,Ballroom_B_AV,,70
+BallroomB,18,Ballroom_B_AV,,70
 BallroomB,20,Ballroom_B_speakers,,65
 BallroomB,24,uplink_to_Ballroom_MDF_sw,"40,41,42,43,55,60,61,65,70,80,100-111",50
 BallroomC,1,Ballroom_C1_AP,"40,41,42,43,60",50
@@ -23,6 +25,7 @@ BallroomC,4,Ballroom_C_Lobby_AP,"40,41,42,43,60",50
 BallroomC,11,Ballroom_C_AV,,70
 BallroomC,12,Ballroom_C_AV,,70
 BallroomC,13,Ballroom_C_AV,,70
+BallroomC,14,Ballroom_C_AV,,70
 BallroomC,20,Ballroom_C_speakers,,65
 BallroomC,23,Display_outside_of_C,,55
 BallroomC,24,Display_outside_of_C,,55
@@ -38,6 +41,7 @@ BallroomDE,8,Ballroom_D_hallway_AP,"40,41,42,43,60",50
 BallroomDE,13,Ballroom_DE_AV,,70
 BallroomDE,14,Ballroom_DE_AV,,70
 BallroomDE,15,Ballroom_DE_AV,,70
+BallroomDE,16,Ballroom_DE_AV,,70
 BallroomDE,20,Ballroom_DE_speakers,,65
 BallroomDE,24,uplink_to_Ballroom_MDF,"40,41,42,43,55,60,61,65,70,80,100-111",50
 BallroomF,1,Ballroom_F1_AP,"40,41,42,43,60",50
@@ -47,6 +51,7 @@ BallroomF,4,Ballroom_F_hallway_AP,"40,41,42,43,60",50
 BallroomF,13,Ballroom_F_AV,,70
 BallroomF,14,Ballroom_F_AV,,70
 BallroomF,15,Ballroom_F_AV,,70
+BallroomF,16,Ballroom_F_AV,,70
 BallroomF,20,Ballroom_F_speakers,,65
 BallroomF,22,Display_outside_of_F,,55
 BallroomF,23,Display_outside_of_F,,55
@@ -58,6 +63,7 @@ BallroomG,4,Ballroom_G_hallway_AP,"40,41,42,43,60",50
 BallroomG,11,Ballroom_G_AV,,70
 BallroomG,12,Ballroom_G_AV,,70
 BallroomG,13,Ballroom_G_AV,,70
+BallroomG,14,Ballroom_G_AV,,70
 BallroomG,20,Ballroom_G_speakers,,65
 BallroomG,23,Display_outside_of_G,,55
 BallroomG,25,uplink_to_Ballroom_MDF,"40,41,42,43,55,60,61,65,70,80,100-111",50
@@ -67,6 +73,7 @@ BallroomH,3,Ballroom_H1_AP,"40,41,42,43,60",50
 BallroomH,13,Ballroom_H_AV,,70
 BallroomH,14,Ballroom_H_AV,,70
 BallroomH,15,Ballroom_H_AV,,70
+BallroomH,16,Ballroom_H_AV,,70
 BallroomH,21,Ballroom_H_speakers,,65
 BallroomH,24,uplink_to_Ballroom_MDF_sw,"40,41,42,43,55,60,61,65,70,80,100-111",50
 BallroomJ,1,Ballroom_J1_AP,"40,41,42,43,60",50
@@ -113,6 +120,7 @@ Room101-102,5,room_101_hallway_AP,"40,41,42,43,60",50
 Room101-102,10,room_102/101_AV,,70
 Room101-102,11,room_102/101_AV,,70
 Room101-102,12,room_102/101_AV,,70
+Room101-102,13,room_102/101_AV,,70
 Room101-102,20,room_102/101_speaker,,65
 Room101-102,25,uplink_to_Conference_MDF,"40,41,42,43,55,60,61,65,70,80,100-111",50
 Room103,1,room_103_AP,"40,41,42,43,60",50
@@ -120,6 +128,7 @@ Room103,2,room_103_AP,"40,41,42,43,60",50
 Room103,12,room_103_AV,,70
 Room103,13,room_103_AV,,70
 Room103,14,room_103_AV,,70
+Room103,15,room_103_AV,,70
 Room103,20,room_103_speaker,,65
 Room103,25,uplink_to_Conference_MDF,"40,41,42,43,55,60,61,65,70,80,100-111",50
 Room104-105,1,room_105_hallway_AP,"40,41,42,43,60",50
@@ -130,6 +139,7 @@ Room104-105,5,room_104_AP_Vlans,"40,41,42,43,60",50
 Room104-105,11,room_104/105_AV,,70
 Room104-105,12,room_104/105_AV,,70
 Room104-105,13,room_104/105_AV,,70
+Room104-105,14,room_104/105_AV,,70
 Room104-105,20,room_104/105_speaker,,65
 Room104-105,25,uplink_to_Conference_MDF_sw,"40,41,42,43,55,60,61,65,70,80,100-111",50
 Room107,1,room_107_AP,"40,41,42,43,60",50
@@ -139,6 +149,7 @@ Room107,4,room_107_hallway_AP,"40,41,42,43,60",50
 Room107,10,room_107_AV,,70
 Room107,11,room_107_AV,,70
 Room107,12,room_107_AV,,70
+Room107,13,room_107_AV,,70
 Room107,20,room_107_speaker,,65
 Room107,25,uplink_to_Conference_MDF_sw,"40,41,42,43,55,60,61,65,70,80,100-111",50
 Room106,1,room_106_AP,"40,41,42,43,60",50
@@ -148,6 +159,7 @@ Room106,4,room_106_AP_hallway,"40,41,42,43,60",50
 Room106,10,room_106_AV,,70
 Room106,11,room_106_AV,,70
 Room106,12,room_106_AV,,70
+Room106,13,room_106_AV,,70
 Room106,20,room_106_speaker,,65
 Room106,25,uplink_to_Conference_MDF,"40,41,42,43,55,60,61,65,70,80,100-111",50
 Room211,1,room_211_AP,"40,41,42,43,60",50
@@ -157,6 +169,7 @@ Room211,4,room_211_hallway_AP,"40,41,42,43,60",50
 Room211,10,room_211_AV,,70
 Room211,11,room_211_AV,,70
 Room211,12,room_211_AV,,70
+Room211,13,room_211_AV,,70
 Room211,20,room_211_speaker,,65
 Room211,25,uplink_to_Conference_MDF_sw,"40,41,42,43,55,60,61,65,70,80,100-111",50
 Room210-209,1,room_210_AP,"40,41,42,43,60",50
@@ -165,6 +178,7 @@ Room210-209,3,room_210_hallway_AP,"40,41,42,43,60",50
 Room210-209,10,room_210/209_AV,,70
 Room210-209,11,room_210/209_AV,,70
 Room210-209,12,room_210/209_AV,,70
+Room210-209,13,room_210/209_AV,,70
 Room210-209,20,room_210/209_speaker,,65
 Room210-209,25,uplink_to_Conference_MDF_sw,"40,41,42,43,55,60,61,65,70,80,100-111",50
 Room208,1,room_208_AP,"40,41,42,43,60",50
@@ -255,6 +269,7 @@ Room214,4,room_212_hallway_AP,"40,41,42,43,60",50
 Room214,10,room_214_AV,,70
 Room214,11,room_214_AV,,70
 Room214,12,room_214_AV,,70
+Room214,13,room_214_AV,,70
 Room214,20,room_214_speaker,,65
 Room214,25,uplink_to_Conference_MDF_sw,"40,41,42,43,55,60,61,65,70,80,100-111",50
 Regdesk,1,Reg_desk_AP,"40,41,42,43,60",50
