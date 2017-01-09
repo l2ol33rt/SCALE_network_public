@@ -8,15 +8,13 @@ As proposed at this time there are 44 switches in the network. As of now the pla
 
 
 ##AV team
-For the AV team we will provide them with 3 network drops(maybe 4 total) per room with a speaker  The drops will be used for camera, laptop video capture device and speaker’s laptop. There will be one camera per room with a speaker. If there is free ports, one port will be AV network to allow for debugging. The speakers laptop will be on a speaker’s vlan. At the AV team command center there will be a 24 port switch with a 2gb uplink to the IDF/MDF. Also AV team will run their own dhcp server for the AV  network. We will not have ipv6 on this network since tech team would not control the ipv4 network.
+For the AV team we will provide them with 4 network drops per room with a speaker  The drops will be used for camera, laptop video capture device and speaker’s laptop. There will be one camera per room with a speaker. If there is free ports, one port will be AV network to allow for debugging. The speakers laptop will be on a speaker’s vlan. At the AV team command center there will be a 24 port switch with a 2gb uplink to the IDF/MDF. Also AV team will run their own dhcp server for the AV  network. We will not have ipv6 on this network since tech team would not control the ipv4 network.
 
 
 ##Wireless
-The network is based on 87 APs with 25 of them  EA8500 and the rest split between wndr3800 and wndr3700v2. If there are any left over APs a few will be set aside as spares and the others will be placed on the floor for areas that need more capacity. The EA8500 is a 802.11AC wave2 based AP that will be used in the ballroom where the largest load will be. The EA8500 supports mu-mimo which will allow the AP better performance with large number of connected clients over older APs.
-
+The network is based on 87 APs split between wndr3800 and wndr3700v2. If there are any left over APs a few will be set aside as spares and the others will be placed on the floor for areas that need more capacity. 
 
 I will set the power levels a little higher of the 5ghz band so that clients will pick 5ghz more often. 
-
 
 I will enabled the greatest number of features that the hardware and openwrt firmware supports. Below are example of some of the features that I will try to enable.
 - minRSSI(This is used to help older clients move between access points)
