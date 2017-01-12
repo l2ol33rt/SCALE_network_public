@@ -45,10 +45,10 @@ An opensouce option like zabbix, opennms, or librenms will be used. As of (1-12-
 
 ##Network services
 The network services of monitoring, dns, syslog, file server/local repo,caching, dhcp server would be housed in the NOC. Each service would be on its own OS in a VM or installed on bare hardware. 
-Dhcp relay=This will be the pfsense router since it will be the default gateway for all of the vlans. Dhcp will not be on AV vlan since tech will not manage the dhcp for that network. Dhcp relay will not be needed for vlan 1 as the dhcp server will also live on vlan 1 and can listen for dhcp requests.
-Proxy=Squid will be setup as a transparent proxy so that no client setup will need to be done. Squid will be installed on another server and pfsense will redirect port 80/tcp(not touching 443/tcp) of all outgoing request to the public internet to the proxy ip. 
-syslog=We will be using graylog
-Dns=There will be two dns servers that will act as authoritative and caching forwarding nameserver for all clients.
+- Dhcp relay=This will be the pfsense router since it will be the default gateway for all of the vlans. Dhcp will not be on AV vlan since tech will not manage the dhcp for that network. Dhcp relay will not be needed for vlan 1 as the dhcp server will also live on vlan 1 and can listen for dhcp requests.
+- Proxy=Squid will be setup as a transparent proxy so that no client setup will need to be done. Squid will be installed on another server and pfsense will redirect port 80/tcp(not touching 443/tcp) of all outgoing request to the public internet to the proxy ip. 
+- syslog=We will be using graylog
+- Dns=There will be two dns servers that will act as authoritative and caching forwarding nameserver for all clients.
 
 
 ##Firewall rules
