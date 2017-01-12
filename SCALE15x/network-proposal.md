@@ -1,6 +1,6 @@
 # Network Proposal
 ##Router/Internet connection
-We will get the internet access from the upstream isp using fiber. This would connect to pfsense based router. The wan connection will probably be rj45 copper but since I have not see wan connection or server that is going to house pfsense I can't be fore sure. The pfsense will do all of the WAN based routing, NAT, ipv6 tunnel end point, and intervlan router. If server has more than 2 NICs this vlan traffic will be split on to different lan NICs. If the server only has 2 nic this all vlans will trunked on a single interface. A squid proxy will be using on this hardware too since it will be the default gateway for the network but the cache files from will be stored on another server. Squid will be setup as a transparent proxy so that no client setup will need to be done. The pfsense router would be housed if possible in the same location as the upstream isp hand off. If not then the WAN connection will we connected to a core switched and brought up to NOC as a vlan to meet the pfsense router.
+We will get the internet access from the upstream isp using fiber. This would connect to pfsense based router. The wan connection will probably be rj45 copper but since I have not see wan connection or server that is going to house pfsense I can't be fore sure. The pfsense will do all of the WAN based routing, NAT, ipv6 tunnel end point, and intervlan router. If server has more than 2 NICs this vlan traffic will be split on to different lan NICs. If the server only has 2 nic this all vlans will trunked on a single interface. The pfsense router would be housed if possible in the same location as the upstream isp hand off. If not then the WAN connection will we connected to a core switched and brought up to NOC as a vlan to meet the pfsense router.
 
 
 ##Switches
@@ -36,15 +36,22 @@ Under this proposal there would be 3 SSIDs
 
 
 ##Management
-I will try and get  openwisp2 openwrt controller working for controlling all of the APs from the central location.  If that fails then I would fall back on  ansible for config management. 
+I will try and get  openwisp2 openwrt controller working for controlling all of the APs from the central location.  If that fails then I would fall back on  ansible for config management. I will be building a custom version of openwrt so that APs will auto check in with openwisp. The changes will include the hostname and key for openwisp and setting openwrt to default to dhcp when booting.
 
 
 ##Monitoring
-An opensouce option like zabbix, opennms, or librenms will be used. 
+An opensouce option like zabbix, opennms, or librenms will be used. As of (1-12-2017) librenms looks like it will be used at the nms of the network.
 
 
 ##Network services
-The network services of monitoring, dns, syslog, file server/local repo,caching, dhcp server would be housed in the NOC. Each service would be on its own OS in a VM or installed on bare hardware. The pfsense router  would do dhcp relay since it would the default gateway for each vlan.
+The network services of monitoring, dns, syslog, file server/local repo,caching, dhcp server would be housed in the NOC. Each service would be on its own OS in a VM or installed on bare hardware. 
+Dhcp relay=This will be the pfsense router since it will be the default gateway for all of the vlans. Dhcp will not be on AV vlan since tech will not manage the dhcp for that network. Dhcp relay will not be needed for vlan 1 as the dhcp server will also live on vlan 1 and can listen for dhcp requests.
+Proxy=Squid will be setup as a transparent proxy so that no client setup will need to be done. Squid will be installed on another server and pfsense will redirect port 80/tcp(not touching 443/tcp) of all outgoing request to the public internet to the proxy ip. 
+syslog=We will be using graylog
+Dns=There will be two dns servers that will act as authoritative and caching forwarding nameserver for all clients.
+
+
+##Firewall rules
 
 
 
