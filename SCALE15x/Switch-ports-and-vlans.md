@@ -2,10 +2,10 @@
 | Network name | Ip range v4 | Ip range v6 | vlan | Notes | DHCP range |
 | --- | --- | --- | --- | --- | --- |
 | Network management | 10.1.0.0/24 | 2001:470:f3fc:1::/64 | vlan=1 | This is for servers, switches, and APs | 10.1.0.100 - 10.1.0.250 |
-| SCALE-public 2g  | 10.40.0.0/21 | 2001:470:f3fc:40::/64 | vlan=40 | Guest network building1 | 10.40.0.20 - 10.40.8.250 |
-| SCALE public 5g | 10.41.0.0/21 | 2001:470:f3fc:41::/64 | vlan=41 | Guest network building1 | 10.41.0.20 - 10.41.8.250 |
-| SCALE-public 2g  | 10.42.0.0/21 | 2001:470:f3fc:42::/64 | vlan=42 | Guest network building2 | 10.42.0.20 - 10.42.8.250 |
-| SCALE public 5g | 10.43.0.0/21 | 2001:470:f3fc:43::/64 | vlan=43 | Guest network building2 | 10.43.0.20 - 10.43.8.250 |
+| SCALE-public 2g  | 10.40.0.0/21 | 2001:470:f3fc:40::/64 | vlan=40 | Guest network conf building | 10.40.0.20 - 10.40.8.250 |
+| SCALE public 5g | 10.41.0.0/21 | 2001:470:f3fc:41::/64 | vlan=41 | Guest network conf building | 10.41.0.20 - 10.41.8.250 |
+| SCALE-public 2g  | 10.42.0.0/21 | 2001:470:f3fc:42::/64 | vlan=42 | Guest network expo building | 10.42.0.20 - 10.42.8.250 |
+| SCALE public 5g | 10.43.0.0/21 | 2001:470:f3fc:43::/64 | vlan=43 | Guest network expo building | 10.43.0.20 - 10.43.8.250 |
 | SCALE Staff  | 10.60.0.0/23 | 2001:470:f3fc:60::/64 | vlan=60 | Connected to the staff wireless network | 10.60.0.20 - 10.60.1.250 |
 | Reg desk  | 10.61.0.0/24 | 2001:470:f3fc:61::/64 | vlan=61 | | 10.61.0.20 - 10.61.0.250 |
 | Video  | 10.70.0.0/24 | No ip v6 | vlan=70 | AV team | 10.70.0.20 - 10.70.0.250 |
