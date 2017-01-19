@@ -144,6 +144,35 @@ echo "config interface 'vlan60'" >> ./configap/$Hostname/network
 echo "	option type 'bridge'" >> ./configap/$Hostname/network
 echo "	option proto 'none'" >> ./configap/$Hostname/network
 echo "	option ifname 'eth0.60'" >> ./configap/$Hostname/network
+
+echo "config system" >> ./configap/$Hostname/system
+echo "        option hostname '$Hostname'" >> ./configap/$Hostname/system
+echo "        option zonename 'America/Los Angeles'" >> ./configap/$Hostname/system
+echo "        option timezone 'PST8PDT,M3.2.0,M11.1.0'" >> ./configap/$Hostname/system
+echo "        option conloglevel '8'" >> ./configap/$Hostname/system
+echo "        option cronloglevel '8'" >> ./configap/$Hostname/system
+echo "        option log_ip '10.1.0.4'" >> ./configap/$Hostname/system
+echo " " >> ./configap/$Hostname/system
+echo "config timeserver 'ntp'" >> ./configap/$Hostname/system
+echo "        list server '0.openwrt.pool.ntp.org'" >> ./configap/$Hostname/system
+echo "        list server '1.openwrt.pool.ntp.org'" >> ./configap/$Hostname/system
+echo "        list server '2.openwrt.pool.ntp.org'" >> ./configap/$Hostname/system
+echo "        list server '3.openwrt.pool.ntp.org'" >> ./configap/$Hostname/system
+echo "        option enabled '1'" >> ./configap/$Hostname/system
+echo "        option enable_server '0'" >> ./configap/$Hostname/system
+echo " " >> ./configap/$Hostname/system
+echo "config led 'led_wan'" >> ./configap/$Hostname/system
+echo "        option name 'WAN LED (green)'" >> ./configap/$Hostname/system
+echo "        option sysfs 'netgear:green:wan'" >> ./configap/$Hostname/system
+echo "        option default '0'" >> ./configap/$Hostname/system
+echo " " >> ./configap/$Hostname/system
+echo "config led 'led_usb'" >> ./configap/$Hostname/system
+echo "        option name 'USB'" >> ./configap/$Hostname/system
+echo "        option sysfs 'netgear:green:usb'" >> ./configap/$Hostname/system
+echo "        option trigger 'usbdev'" >> ./configap/$Hostname/system
+echo "       option dev '1-1'" >> ./configap/$Hostname/system
+ echo "       option interval '50'" >> ./configap/$Hostname/system
+
 ##This is going to build the needed list for the dhcp and dns config files.
 echo "$Hostname   IN  A      $ip" >> ./configap/bind.conf
 echo "host $Hostname         { hardware ethernet $mac; fixed-address $ip;   }"  >> ./configap/dhcp.conf
