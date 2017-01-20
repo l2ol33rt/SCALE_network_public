@@ -3,6 +3,7 @@
 2. Build switch upload config scipt
 3. Build remote commmand scipt
 4. Add passwords to config build script
+5. Enable advance wireless settings
 
 ##Wired
 1. Add support for lag ports in config build script
