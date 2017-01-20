@@ -4,6 +4,7 @@
 3. Build remote commmand scipt
 4. Add passwords to config build script
 5. Enable advance wireless settings
+6. Setup snmp on openwrt
 
 ##Wired
 1. Add support for lag ports in config build script
