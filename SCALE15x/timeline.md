@@ -1,6 +1,16 @@
-- Monday Feb 27 8am-12pm Get hardware out of storage 
-- Monday Feb 27 12pm-2pm Get NOC online(Install pfsense and place router, default/upgrade firmware/config all switches between internet connection and noc, get openwisp2 online)
-- Monday Feb 27 2:30pm Get NMS,dns/dhcp,syslog online
+- Monday Feb 27 8am-12pm Get hardware out of storage
+  1. Move gear to the PCC
+  2. Get count of number of APs that we have
+  3. Finalize the layout of APs and switches
+- Monday Feb 27 12pm-2pm Get NOC online
+  1. Install pfsense
+  2. Place router and make sure that it can ping out
+  3. default/upgrade firmware on switches between internet connection and noc
+  4. config all switches between internet connection and noc
+- Monday Feb 27 2:30pm Get core services online 
+  1. dns/dhcp
+  2. NMS
+  3. syslog
 - Monday Feb 27 2:30pm-4pm default/upgrade firmware/config rest of switches
 - Monday Feb 27 4-5pm place switches (non expo area)
 - Tueday Feb 28 8am-12pm place switches (non expo area)
