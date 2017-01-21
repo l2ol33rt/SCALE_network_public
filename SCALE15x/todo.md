@@ -16,3 +16,4 @@
 ##Other
 1. Setup lab demo
 2. burn iso to usb/cd for Xubuntu and pfsense.
+3. Make password page on the private repo
