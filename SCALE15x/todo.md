@@ -11,7 +11,8 @@
 
 ##Services
 1. Build config for dhcp server
-2. Make backup of nms computer
+2. add ssl to zabbix interface
+3. Make backup of nms computer
 
 ##Other
 1. Setup lab demo
