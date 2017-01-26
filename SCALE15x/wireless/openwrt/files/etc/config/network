@@ -1,0 +1,14 @@
+config interface 'loopback'
+    option ifname 'lo'
+    option proto 'static'
+    option ipaddr '127.0.0.1'
+    option netmask '255.0.0.0'
+
+config globals 'globals'
+
+config interface 'lan'
+    option ifname 'eth0.1'
+    option type 'bridge'
+    option _orig_ifname 'eth0.1 radio0.network1 radio1.network1'
+    option _orig_bridge 'true'
+    option proto 'dhcp'
