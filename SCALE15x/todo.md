@@ -1,10 +1,9 @@
 ##Wireless
 1. Test new custom img
-2. Build switch upload config scipt
-3. Build remote commmand scipt
-4. Add passwords to config build script
-5. Enable advance wireless settings
-6. Setup snmp on openwrt
+2. Build remote commmand scipt
+3. Add passwords to config build script
+4. Enable advance wireless settings
+
 
 ##Wired
 1. Add support for lag ports in config build script
