@@ -1,8 +1,7 @@
 ##Wireless
-1. Test new custom img
-2. Build remote commmand scipt
-3. Add passwords to config build script
-4. Enable advance wireless settings
+1. Build remote commmand scipt(This is done just needs more testing)
+2. Add passwords to config build script
+3. Enable advance wireless settings
 
 
 ##Wired
