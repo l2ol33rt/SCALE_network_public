@@ -22,7 +22,7 @@ Sensitive credentials need to be added outside of git. First add ssh keys:
 vim ~/openwrt/files/etc/dropbear/authorized_keys
 ```
 
-Now add a root hash in place of `<ADD HASH HERE>`. `SHA512` work fine:
+Now add a root hash in place of `<ADD HASH HERE>`. `MD5crypt` is currently confirmed to work:
 ```bash
 cat << EOF > ~/openwrt/files/etc/shadow
 root:<ADD HASH HERE>:0:0:99999:7:::
@@ -33,10 +33,16 @@ nobody:*:0:0:99999:7:::
 EOF
 ```
 
+We have to patch the `image.mk` to correct the permissions of the above files:
+```bash
+cd ~/OpenWrt-ImageBuilder-15.05.1-ar71xx-generic.Linux-x86_64/include
+patch < ~/SCALE_network_public/SCALE15x/wireless/openwrt/mkimage.patch
+```
+
 Build the images against the profile which matches the hardware:
 ```bash
 cd ~/openwrt/OpenWrt-ImageBuilder-15.05.1-ar71xx-generic.Linux-x86_64
-make image PROFILE=WNDR3700 FILES="../files/"
+make image PROFILE=WNDR3700 PACKAGES="-dnsmasq -firewall" FILES="../files/"
 cd ~/OpenWrt-ImageBuilder-15.05.1-ar71xx-generic.Linux-x86_64/bin/ar71xx/ # Images are written here
 ```
 

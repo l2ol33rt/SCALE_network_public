@@ -1,0 +1,12 @@
+--- image.mk    2017-02-02 20:58:19.940539930 -0800
++++ image.mknew 2017-02-02 20:57:55.049050990 -0800
+@@ -249,6 +249,9 @@
+        - $(FIND) $(TARGET_DIR) -type d -print0 | $(XARGS) -0 chmod u+rwx,g+rx,o+rx
+        $(INSTALL_DIR) $(TARGET_DIR)/tmp $(TARGET_DIR)/overlay
+        chmod 1777 $(TARGET_DIR)/tmp
++       chmod 0700 $(TARGET_DIR)/etc/dropbear
++       chmod 0600 $(TARGET_DIR)/etc/dropbear/authorized_keys
++       chmod 0600 $(TARGET_DIR)/etc/shadow
+ endef
+
+ define Image/mkfs/prepare
